@@ -1,0 +1,112 @@
+{
+    "trips": [
+        [
+            {
+              "title": "Valentine's in Paris",
+              "slug": "valentines-in-paris",
+              "description": "Experience the romance of Paris this Valentine's Day.",
+              "images": [
+                "/images/paris1.jpeg",
+                "/images/paris2.jpeg",
+                "/images/paris3.jpeg"
+              ],
+              "startCity": "Munich",
+              "itinerary": [
+                {
+                  "day": "Day 1",
+                  "title": "Departure from Munich",
+                  "details": "Meet at Munich Hauptbahnhof at 18:30. Board our luxury coach and start your journey to Paris!"
+                },
+                {
+                  "day": "Day 2",
+                  "title": "Explore Paris",
+                  "details": "Morning arrival. Visit Eiffel Tower, Champs-Elysées, and Louvre Museum. Free time in the evening."
+                },
+                {
+                  "day": "Day 3",
+                  "title": "Return to Munich",
+                  "details": "Depart from Paris at 21:00, arriving back in Munich the next morning."
+                }
+              ],
+              "included": [
+                "Luxury Coach Transport",
+                "Orientation City Tour",
+                "Free Digital Brochures",
+                "Professional Tour Guide"
+              ],
+              "optional": [
+                {
+                  "name": "Seine River Boat Cruise",
+                  "price": "€17.99"
+                }
+              ]
+            },
+            {
+              "title": "Lapland Adventure",
+              "slug": "lapland-adventure",
+              "description": "Witness the Northern Lights on this unforgettable journey.",
+              "images": [
+                "/images/lapland1.jpeg",
+                "/images/lapland2.jpeg",
+                "/images/lapland3.jpeg"
+              ],
+              "startCity": "Berlin",
+              "itinerary": [
+                {
+                  "day": "Day 1",
+                  "title": "Departure from Berlin",
+                  "details": "Meet at Berlin Hbf at 17:00. Board overnight bus to Lapland."
+                },
+                {
+                  "day": "Day 2",
+                  "title": "Arrival & Northern Lights Tour",
+                  "details": "Explore Lapland's frozen beauty, then enjoy a guided Northern Lights tour."
+                },
+                {
+                  "day": "Day 3",
+                  "title": "Return to Berlin",
+                  "details": "Depart from Lapland at 19:00, arriving back in Berlin next day."
+                }
+              ],
+              "included": [
+                "Luxury Coach Transport",
+                "Accommodation in Winter Cabins",
+                "Northern Lights Tour",
+                "Reindeer Feeding Experience"
+              ],
+              "optional": [
+                {
+                  "name": "Husky Sled Ride",
+                  "price": "€49.99"
+                }
+              ]
+            }
+          ]
+          
+    ],
+    "testimonials": [
+      {
+        "name": "Akshay, India",
+        "review": "I had an amazing experience traveling with this group.",
+        "image": "https://via.placeholder.com/100"
+      },
+      {
+        "name": "Maria, Germany",
+        "review": "The trips are well-organized and very affordable.",
+        "image": "https://via.placeholder.com/100"
+      }
+    ],
+    "features": [
+      {
+        "title": "Experts on Tour",
+        "description": "Our staff is always ready to assist you during your journey.",
+        "icon": "https://via.placeholder.com/40"
+      },
+      {
+        "title": "Comfortable Transport",
+        "description": "Travel in style with premium buses and seating.",
+        "icon": "https://via.placeholder.com/40"
+      }
+    ]
+  }
+  
