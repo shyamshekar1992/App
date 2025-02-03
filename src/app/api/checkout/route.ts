@@ -27,8 +27,8 @@ export async function POST(req: Request) {
         },
       ],
       mode: "payment",
-      success_url: `http://localhost:3000/sucess`,
-      cancel_url: `http://localhost:3000/fail`,
+      success_url: `https://app-2t4klwrfz-shyamshekar1992s-projects.vercel.app/sucess`,
+      cancel_url: `https://app-2t4klwrfz-shyamshekar1992s-projects.vercel.app/fail`,
     });
 
     return NextResponse.json({ url: session.url });
