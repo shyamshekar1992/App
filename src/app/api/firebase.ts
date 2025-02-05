@@ -1,29 +1,19 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import { getAnalytics, Analytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
 
-// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAryEIbv7dLrIxfuJXyg2X5QkiwUDaSOXA",
-  authDomain: "travel-app-3a2ce.firebaseapp.com",
-  projectId: "travel-app-3a2ce",
-  storageBucket: "travel-app-3a2ce.appspot.com", // Corrected URL
-  messagingSenderId: "122338024938",
-  appId: "1:122338024938:web:59ab027690699653702693",
-  measurementId: "G-Y2WG7F6XNW",
+  apiKey: "AIzaSyAXtFQVA5Q7K3F_IeqFrR_-wDdqj4KsLFY",
+  authDomain: "shyam-gmbh.firebaseapp.com",
+  projectId: "shyam-gmbh",
+  storageBucket: "shyam-gmbh.firebasestorage.app",
+  messagingSenderId: "1096712939317",
+  appId: "1:1096712939317:web:76f6238d5b6c418802ce7c",
+  measurementId: "G-NVH7E83Z94"
 };
 
-// Initialize Firebase app
 const app = initializeApp(firebaseConfig);
-
-// Initialize Firebase Auth
 const auth = getAuth(app);
+const db = getFirestore(app);
 
-// Initialize Firebase Analytics (conditionally for browser environments)
-let analytics: Analytics | undefined;
-if (typeof window !== "undefined") {
-  analytics = getAnalytics(app);
-}
-
-// Export Firebase instances
-export { app, auth, analytics };
+export { app, auth, db };

@@ -7,6 +7,7 @@ export interface IBooking extends Document {
   passengerNames: string[];
   privateRoom: boolean;
   totalPrice: number;
+  customerEmail: string; // ✅ Add this field
   timestamp: Date;
 }
 
@@ -18,6 +19,7 @@ const BookingSchema = new Schema<IBooking>({
   passengerNames: { type: [String], required: true },
   privateRoom: { type: Boolean, default: false },
   totalPrice: { type: Number, required: true },
+  customerEmail: { type: String, required: true }, // ✅ Ensure email is required
   timestamp: { type: Date, default: Date.now },
 });
 
